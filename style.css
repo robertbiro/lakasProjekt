@@ -76,3 +76,20 @@ h1 {
     background-color: #0056b3;
 }
 
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.input-fields{
+    display: flex;
+}
+
+.left-side .name, 
+.left-side .email {
+    display: flex;
+    flex-direction: column;
+}
+
