@@ -1,3 +1,13 @@
+header {
+    height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #555555;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 body{
     background-color: azure;
     margin: 20px;
@@ -9,6 +19,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
     display: flex;
+    margin-bottom: 30px;
 }
 
 .container img{
@@ -46,10 +57,12 @@ body{
 
 .osszefoglalas{
     display: flex;
+    justify-content: center;
 }
 
 h1 {
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0,0.2);
 }
 
 .kepek{
@@ -93,3 +106,39 @@ input, textarea {
     flex-direction: column;
 }
 
+.left-side,
+.right-side,
+.middle-side {
+    padding: 20px;
+    margin-left: 240px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side img{
+    height: auto;
+    width: 40px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
